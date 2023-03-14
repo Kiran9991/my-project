@@ -1,0 +1,98 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main-header{
+    width: 100;
+    height: 3.5rem;
+    background-color: #61fa09e0;
+}
+.main-header_item-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-header_nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main-header_item {
+    margin: 0 1rem;
+    padding: 0;
+}
+.main-header_item a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-header_item a:hover,
+.main-header_item a:active,
+.main-header_item a.active{
+    color:#6200ff;
+}
+
+.product-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.form-control {
+    margin: 1rem 0;
+    border-radius: 5px;
+    background-color: rgba(194, 191, 189, 0.849);
+    border: brown;
+    padding: 20px;
+}
+
+.form-control label,
+.form-control input {
+    display: block;
+    width: 100%;
+}
+
+.form-control input {
+    border: 1px solid #dbc441;
+    font: inherit;
+    border-radius: 2px;
+}
+
+button {
+    font: inherit;
+    border: 1px solid #7316ca;
+    color: #7316ca;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover,
+button:active {
+    background-color: #6200ff;
+    color: white;
+}
+
+.text-control {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-control {
+    width: 100%;
+  background-color: #07043b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
